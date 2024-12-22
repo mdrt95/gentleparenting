@@ -30,7 +30,6 @@ fun HomeScreen() {
             .background(Color.Gray),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Top Bar with Points and Streak
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -41,7 +40,6 @@ fun HomeScreen() {
             Text(text = "Streak: ")
         }
 
-        // Learning Paths
         LearningPath(
             title = "Managing Big Emotions",
             progress = 0.75f,
